@@ -16,7 +16,7 @@ form.addEventListener('submit', (event) => {
   event.target.reset();
 });
 
-// STEP 4: Function to build a task item
+// STEP 4: Function build a task item
 function buildToDo(task) {
   const li = document.createElement('li');
   li.textContent = task;
